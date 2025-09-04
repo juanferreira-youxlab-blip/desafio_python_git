@@ -1,4 +1,10 @@
 nome = ('Juan')
-idade = ('16')
-lingfav = ('python')
-print ('meu nome é {}, eu tenho {}, e minha linguagem favorita é {}' .format(nome, idade, lingfav))
+idade = int('16')
+linguafav = ('python')
+ano_atual = int('2025')
+anon = ano_atual - idade
+print ('Meu nome é {}' .format (nome))
+print ('Eu tenho {} anos de idade' .format (idade))
+print ('Minha liguagem de programação favorita é {}' .format (linguafav))
+print ('O ano em que estamos atualmente é {} ' .format (ano_atual))
+print ('O ano em que eu a=nasci é {}' .format (anon))
